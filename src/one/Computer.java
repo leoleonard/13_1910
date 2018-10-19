@@ -54,14 +54,10 @@ public class Computer implements Comparable <Computer> {
             return -1;
     }
 
-    
+
 
     @Override
     public String toString() {
-        return "Computer{" +
-                "name='" + name + '\'' +
-                ", cpu=" + cpu +
-                ", memmory=" + memmory +
-                '}';
+        return "Computer " + name  + ", cpu=" + cpu + ", memmory=" + memmory;
     }
 }
