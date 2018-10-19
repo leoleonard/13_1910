@@ -53,11 +53,9 @@ public class Computer implements Comparable <Computer> {
         else
             return -1;
     }
-
-
-
+    
     @Override
     public String toString() {
-        return "Computer " + name  + ", cpu=" + cpu + ", memmory=" + memmory;
+        return name  + " cpu " + cpu + " memmory " + memmory + "\n";
     }
 }
