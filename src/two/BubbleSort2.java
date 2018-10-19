@@ -2,8 +2,10 @@ package two;
 
 import two.Computer2;
 
+import javax.security.sasl.SaslClient;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class BubbleSort2 {
 
@@ -16,6 +18,7 @@ public class BubbleSort2 {
                 new Computer2("Predator", 4000, 16),
                 new Computer2("Dell", 2600, 6)
         };
+
 
         boolean whereChanges;
 

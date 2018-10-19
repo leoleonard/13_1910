@@ -64,4 +64,5 @@ public class Computer2 implements Comparable<Computer2> {
             return -1;
         }
     }
+
 }
